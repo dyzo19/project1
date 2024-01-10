@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+    font-family: 'Trajan Pro', serif;
+    background-color: 	#111; /* Set your desired background color */
+    color:white; /* Set your desired text color */
+}
+
+#f1champ {
+    font-size: large;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+/* Header Styles */
+#ferrariheader img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    /* Add any additional styling you want for the header image */
+}
+
+#article1 {
+    font-family: 'Bodoni', serif;
+    font-size: 30px;
+    color: #E5E4E2; /* #343a40 */
+}
+
+h1 {
+    text-align: center;
+    color: #dc3545; /* Ferrari red color */
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #dc3545 !important; /* Ferrari red color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* Set text color to black */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: yellow !important; /* Set text color to yellow on hover */
+}
+
+/* Content Area Styles */
+.container {
+    margin-top: 20px;
+}
+
+.row {
+    text-align: center;
+}
+
+.col {
+    background-color: #dc3545; /* Set background color for content boxes */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Search Form Styles */
+.form-control {
+    border-color: #dc3545; /* Set border color to Ferrari red */
+}
+
+.btn-outline-success {
+    border-color: #e2e2e2; /* Set border color to Bootstrap success color */
+    color: #e2e2e2; /* Set text color to Bootstrap success color */
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745; /* Set background color on hover */
+    color: #fff; /* Set text color to white on hover */
+}
